@@ -30,6 +30,16 @@ export default function Timer({}) {
       onClick={() => {
         setDate(Date.now() + 600000);
       }}
+      style={{
+        backgroundColor:
+          timeLeft.minutes <= 2
+            ? timeLeft.minutes <= 1
+              ? timeLeft.minutes <= 0
+                ? "#F07A90"
+                : "#D8F07A"
+              : "#9BDEAC"
+            : "",
+      }}
     >
       {timeLeft.minutes || timeLeft.seconds ? (
         <span>

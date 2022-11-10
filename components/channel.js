@@ -9,10 +9,10 @@ export default function Channel({ name }) {
 
       <div className="relative">
         <Image src={"/image.png"} width="597" height="460" />
-        <div className="absolute" style={{ top: "35%", left: "15%" }}>
+        <div className="absolute" style={{ top: "37%", left: "17%" }}>
           <Timer />
         </div>
-        <div className="absolute" style={{ top: "10%", left: "85%" }}>
+        <div className="absolute" style={{ top: "12%", left: "87%" }}>
           <Timer />
         </div>
         <div className="absolute" style={{ top: "45%", left: "75%" }}>
@@ -24,13 +24,19 @@ export default function Channel({ name }) {
         <div className="absolute" style={{ top: "25%", left: "50%" }}>
           <Timer />
         </div>
-        <div className="absolute" style={{ top: "58%", left: "48%" }}>
+        <div className="absolute" style={{ top: "58%", left: "50%" }}>
           <Timer />
         </div>
-        <div className="absolute" style={{ top: "70%", left: "42%" }}>
+        <div className="absolute" style={{ top: "67%", left: "40%" }}>
           <Timer />
         </div>
-        <div className="absolute" style={{ top: "80%", left: "52%" }}>
+        <div className="absolute" style={{ top: "70%", left: "45%" }}>
+          <Timer />
+        </div>
+        <div className="absolute" style={{ top: "70%", left: "50%" }}>
+          <Timer />
+        </div>
+        <div className="absolute" style={{ top: "80%", left: "45%" }}>
           <Timer />
         </div>
       </div>
