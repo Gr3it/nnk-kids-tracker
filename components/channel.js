@@ -24,6 +24,9 @@ export default function Channel({ name }) {
         <div className="absolute" style={{ top: "25%", left: "50%" }}>
           <Timer />
         </div>
+        <div className="absolute" style={{ top: "70%", left: "72%" }}>
+          <Timer />
+        </div>
         <div className="absolute" style={{ top: "58%", left: "50%" }}>
           <Timer />
         </div>
